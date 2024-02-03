@@ -1,5 +1,4 @@
 import React from 'react';
-import { count } from 'rxjs';
 import s from './Post.module.css';
 
 const Post = (props) => {
@@ -11,7 +10,7 @@ const Post = (props) => {
         <img src='https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg'></img>
         {props.message}
         <br />
-        <span>like {props.count}</span>
+        <span>like {props.LikesCount}</span>
       </div>
    
   </div>
